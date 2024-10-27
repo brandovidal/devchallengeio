@@ -6,7 +6,7 @@ Solutions for [devchallengues.io](https://devchallenges.io/)
 
 | Number | Project                                 | Folder               | Web                                                 |
 | ------ | --------------------------------------- | -------------------- | --------------------------------------------------- |
-| `01`   | Simple Frequently Asked Questions (FAQ) | [Ver](projects/faq/) | [Visitar](https://faq-devchallengeio.netlify.app//) |
+| `01`   | Simple Frequently Asked Questions (FAQ) | [Ver](projects/faq/) | [Visitar](https://faq-devchallenguesio.netlify.app) |
 
 ## ⌨️ Commands
 
