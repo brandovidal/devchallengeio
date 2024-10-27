@@ -1,0 +1,42 @@
+{
+  "name": "devchallenguesio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "lint-fix": "standard --fix",
+    "clean": "rimraf **/node_modules/ **/pnpm-lock.yaml **/dist/"
+  },
+  "workspaces": [
+    "projects/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandovidal/devchallenguesio.git"
+  },
+  "keywords": [
+    "devchallenguesio",
+    "projects"
+  ],
+  "author": "Brando Vidal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandovidal/devchallenguesio/issues"
+  },
+  "homepage": "https://github.com/brandovidal/devchallenguesio#readme",
+  "devDependencies": {
+    "vite": "5.4.10",
+    "rimraf": "6.0.1",
+    "standard": "17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json",
+    "ignorePatterns": "build",
+    "rules": {
+      "no-unused-vars": "warn",
+      "react/prop-types": "off",
+      "react-hooks/rules-of-hooks": "off"
+    }
+  }
+}
