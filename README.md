@@ -1,17 +1,18 @@
 # Devchallengues.io ⚛️
 
-Soluciones para los proyectos de [devchallengues.io](https://devchallenges.io/)
+Solutions for [devchallengues.io](https://devchallenges.io/)
 
-## ⌨️ Proyectos
+## ⌨️ Projects
 
-| Número | Proyecto                                | Código               | Web                                                 |
+| Number | Project                                 | Folder               | Web                                                 |
 | ------ | --------------------------------------- | -------------------- | --------------------------------------------------- |
-<!-- | `01`   | Simple Frequently Asked Questions (FAQ) | [Ver](projects/faq/) | [Visitar](https://faq-devchallengeio.netlify.app//) | -->
+| `01`   | Simple Frequently Asked Questions (FAQ) | [Ver](projects/faq/) | [Visitar](https://faq-devchallengeio.netlify.app//) |
 
+## ⌨️ Commands
 
-## ⌨️ Comandos
+> Ubicate to some project folder (cd `folder/`) and execute run start app
 
-Iniciar la aplicacion
+Run project:
 
 ```bash
 pnpm install
