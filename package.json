@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "pnpm": ">=8.0.0"
+  },
   "scripts": {
     "lint": "standard",
     "lint-fix": "standard --fix",
